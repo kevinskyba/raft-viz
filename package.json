@@ -9,7 +9,15 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "vue": "^3.2.13",
+    "d3": "^7.8.0",
+    "d3-geo": "^3.1.0",
+    "@markwylde/liferaft": "^1.3.2",
+    "topojson": "^3.0.2",
+    "vuetify": "^3.0.7",
+    "pencil.js": "^2.4.0",
+    "vue-pencil.js": "^1.2.0",
+    "tween.js": "^16.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -18,7 +26,10 @@
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "webpack-plugin-vuetify": "^2.0.0"
   },
   "eslintConfig": {
     "root": true,
