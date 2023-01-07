@@ -2,11 +2,17 @@ import { Line, Position} from "pencil.js";
 
 export default class NodeConnection extends Line {
 
+    nodeVizA = null;
+    nodeVizB = null;
+
     nodeA = null;
     nodeB = null;
 
-    constructor(nodeA, nodeB) {
+    constructor(nodeVizA, nodeVizB, nodeA, nodeB) {
         super([0, 0], [new Position()]);
+
+        this.nodeVizA = nodeVizA;
+        this.nodeVizB = nodeVizB;
 
         this.nodeA = nodeA;
         this.nodeB = nodeB;
@@ -18,7 +24,7 @@ export default class NodeConnection extends Line {
     }
 
     _onDraw() {
-        this.position = this.nodeA.position;
-        this.points = [this.nodeB.position];
+        this.position = this.nodeVizA.position;
+        this.points = [this.nodeVizB.position];
     }
 }

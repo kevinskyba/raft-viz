@@ -9,6 +9,7 @@ export default class NodeVisualization extends Container {
 
     STATE_COLORS = {
         "LEADER": "#e7cf22",
+        "STOPPED": "#757575",
         "DEFAULT": "#DDD"
     }
 

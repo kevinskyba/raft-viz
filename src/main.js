@@ -16,8 +16,8 @@ const vuetify = createVuetify({
 
 // Setup the animation loop.
 function animate(time) {
-    requestAnimationFrame(animate)
     TWEEN.update(time)
+    requestAnimationFrame(animate)
 }
 requestAnimationFrame(animate)
 
