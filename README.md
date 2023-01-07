@@ -1,5 +1,8 @@
 # raft-viz
 
+A simple visualization of the RAFT algorithm.
+
+
 ## Project setup
 ```
 npm install

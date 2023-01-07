@@ -1,6 +1,5 @@
 import { createApp } from 'vue'
 import { createVuetify } from 'vuetify'
-import Pencil from "vue-pencil.js";
 
 import TWEEN from "tween.js";
 
@@ -25,5 +24,4 @@ const app = createApp(App);
 
 app
     .use(vuetify)
-    .use(Pencil)
     .mount('#app')
