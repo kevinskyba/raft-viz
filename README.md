@@ -1,6 +1,6 @@
 # raft-viz
 
-A simple visualization of the RAFT algorithm.
+A simple visualization of the RAFT algorithm. You can view it here: [https://kevinskyba.github.io/raft-viz/](https://kevinskyba.github.io/raft-viz/).
 
 
 ## Project setup
